@@ -1,0 +1,31 @@
+[Comércio eletrônico]
+
+    [Definição]
+        transação feita usando equipamentos eletrônicos, ex: computador, smartphone, tablet, etc.
+        Trata-se de um processo que se inicia desde a escolha de bens, produtos e serviços e vai até a liquidação financeira, com uso do pagamento eletrônico.
+
+        Um dos aspectos que contribui para a agilidade é quando, em toda a estrutura, estão ligados os clientes, fornecedores e distribuidores.
+
+        Essa modalidade foi intensificada principalmente durante devido à pandemia do Coronavírus, onde foi quando negócios tinham de se reinventar e o "e-commerce" surgiu como um 'principal amortecedor da instabilidade econômica gerada pelo isolamento social'.
+
+        Mesmo com essa intensificação, ainda há um obstáculo que é o medo que algumas pessoas ainda sentem em comprar online. Esse medo é motivado por várias razões e é isso que qualquer proprietário de loja virtual terá que lidar
+
+    [Vantagens]
+        Um comério eletrônico apresenta muitas vantagens, como a capacidade que um negócio tem de não precisar parar; não é preciso se deslocar até a loja; maior variabilidade de produtos; pesquisa rápida por produtos. 
+
+    [A estruturação]
+
+        [Plataforma]
+            É na plataforma onde serão edificadas as bases da loja virtual. É importante que ela seja flexível e tenha qualidade a fim de minimizar problemas futuros. Surgirão questões referentes à plataforma que devem ser consideradas justamente como requisitos e são adequadas ao negócio em questão.
+
+            Uma das soluções para o início de desenvolvimento de um comério eletrônico quando ainda não se tem muita experiência é a dupla 'WordPress + Woocommerce' e é planejada para lojas virtuais de pequeno e médio porte.
+
+                [Segurança]
+                    Esse é um aspecto essencial que toda loja virtual deve ter e deve se preocupar. E essa preocupação se dá por dois motivos:
+                        ° É responsabilidade do lojista a proteção dos dados do clientes
+                        ° Clientes normalmente têm preocupações com a segurança de seus dados
+
+                    Para conferir confiabilidade na loja para o cliente, é importante que ela também conte com 'selos de reconhecimento' na segurança. Também existem métodos protocolares que aumentam a segurança
+
+                [Pagamentos]
+                

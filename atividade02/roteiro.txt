@@ -1,0 +1,25 @@
+[Requisitos]
+
+° 4 páginas HTML, sendo uma delas o index.html 
+
+° 3 links no index que ligam às outras páginas 
+
+° Uma das páginas deve ter um projeto de 5 imagens e, no mínimo duas linhas ou dois parágrafos de texto
+
+° Uma das páginas deve ter 5 tabelas de 3 jeitos diferentes 
+
+° Uma das páginas deve ter um projeto de, no mínimo, um áudio e um vídeo 
+
+° Todas as páginas devem ter ancoragem de forma livre
+
+° Organizar uma pasta para os arquivos HTML, uma pasta para arquivos de áudio, uma pasta para imagens e outra pasta para vídeo 
+
+° Sem pasta compactada 
+
+° Sem lorem-ipsum 
+
+° Todas as mídias devem ter os devidos créditos 
+
+
+
+    
