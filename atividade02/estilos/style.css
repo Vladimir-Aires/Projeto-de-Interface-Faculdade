@@ -19,20 +19,19 @@
     
 }
 
-/* -------------------------------- Corpo ------------------------------------------ */
-p, li, a{
-    font-family: var(--fonteconteudo);
-}
-h1, h2{
-    font-family: var(--fontetitulo);
-    text-transform: uppercase;
+html{
+    scroll-behavior: smooth;
 }
 
+/* -------------------------------- Corpo ------------------------------------------ */
+
+
+
 body{
-    background-image:linear-gradient(to bottom, white, red 130%);
+    background-color: var(--cor6);
 }
 header{
-    background-color: rgb(223, 217, 217);
+    background-image: linear-gradient(to top, var(--cor1)20%, var(--cor5));
     min-height: 140px;
     
 }
@@ -41,22 +40,24 @@ header h1{
     font-size: 2.6em;
     font-weight: 700;
     margin-bottom:39px;
-    
+    color: white;
+    text-shadow: 1px 1px 1px black;
     
 }
 header nav{
-    background-color: #e21111;
-    border-bottom: solid black 2px;
-    padding-top: 10px;
+    background-color: var(--cor1);
+    
+    padding-top: 7px;
     padding-bottom: 8px;
     
 }
 header nav>a{
     text-decoration: none;
-    color: #ffffff;
+    color: aliceblue;
     font-weight: bold;
-    text-shadow: 0px 0px 1px black;
+    text-shadow: 1px 1px 1px black;
     padding-left:10px;
+    padding-right:10px;
 }
 main{
     max-width: 1000px;
@@ -66,6 +67,12 @@ main{
     margin-bottom: 30px;
     padding:20px;
 }
+
+h1, h2{
+    font-family: var(--fontetitulo);
+    text-transform: uppercase;
+}
+
 main p{
     margin-top: 10px;
     margin-bottom: 10px;
@@ -74,6 +81,27 @@ main p{
 main h2{
     margin-top: 10px;
     margin-bottom:10px;
+}
+
+p, li, a{
+    font-family: var(--fonteconteudo);
+}
+
+#retorno{
+    display: block;
+    text-align: right;
+    margin: auto;
+    margin-top:50px;
+    text-decoration: none;
+    color: var(--cor6);
+}
+
+#retorno:hover{
+    color: var(--cor3);
+}
+
+nav > a:hover{
+    text-decoration:underline;
 }
 
 ol, ul{
