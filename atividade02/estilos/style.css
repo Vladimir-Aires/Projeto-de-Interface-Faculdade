@@ -6,7 +6,12 @@
     --fontetitulo: "Advent Pro", sans-serif;
     --fonteconteudo: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 
-    --cor1:#C11119;
+    --cor1:#CF3723;
+    --cor2:#A54437;
+    --cor3:#FA1D00; 
+    --cor4:#7A443D; 
+    --cor5:#503835; 
+    --cor6:#332B2B; 
 }
 *{
     margin: 0px;
