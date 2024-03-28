@@ -5,6 +5,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="../imagens/favicon2.png" type="image/x-icon">
     <link rel="stylesheet" href="../estilos/style.css">
+    <style>
+        form{
+            max-width: 570px;
+            margin: auto;
+            
+        }
+
+        fieldset{
+            margin-top: 10px;
+        
+            background-color: #7d8589;
+            color: white;
+            border: 3px solid black;
+            border-radius: 10px;
+            text-shadow: 1px 1px 1px black;
+        }
+
+        .dados{
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bold;
+            font-size: 1.2em;
+            color: #feffff;
+            background-color: #000000;
+            padding: 7px;
+            border-radius: 10px;
+        }
+        
+    </style>
     <title>Cadastre-se</title>
 </head>
 <body>
@@ -22,20 +50,96 @@
     <main>
         <h2 align="center">Atente-se a todas as novidades que aparecerem aqui. Cadastre-se!</h2>
         <form action=".sql" method="post">
-            <fieldset class="dados-pessoais">
-                <legend align="center">Dados Pessoais</legend>
-                <label for="nome">Nome</label> <br>
-                <input type="text" id="nome">
+            <fieldset >
+                <legend align="center" class="dados">Dados Pessoais</legend>
+                <p align="center">
+                    <label for="nome">Nome</label> <br>
+                    <input type="text" id="nome">
+                </p>
+                
+                <p align="center">
+                    <label for="sobrenome">Sobrenome</label> <br>
+                    <input type="text" id="sobrenome">
+                </p>
+                
+                <p align="center">
+                    <label for="nascimento">Data de Nascimento</label> <br>
+                    <input type="date" id="nascimento">
+                </p>
+                
+                <p align="center">
+                    <label for="email">E-mail</label> <br>
+                    <input type="email" id="email" placeholder="example@gmail.com">
+                </p>
+                
+                <p align="center">
+                    <label for="senha">Senha</label> <br>
+                    <input type="password" id="senha">
+                </p>
+                
+                <p align="center">
+                    <label for="estado">Estado Residente</label> <br>
+                    <select name="estado" id="estado">
+                        <option value="DF">DF</option>
+                        <option value="RJ">RJ</option>
+                        <option value="SP">SP</option>
+                        <option value="AM">AM</option>
+                        <option value="MT">MT</option>
+                        <option value="RS">RS</option>
+                    </select>
+                </p>
+                
+                <p align="center">
+                    <label for="genero">Gênero:</label>
+                    <input type="radio" name="genero" value="1">Masculino
+                    <input type="radio" name="genero" value="2">Feminino 
+                    <input type="radio" name="genero" value="3">Outros
+                </p>
+                
+                <p align="center">
+                    <label for="telefone">Telefone de contato</label> <br>
+                    <input type="number" id="telefone" placeholder="(00) 0000-0000">
+                </p>
 
             </fieldset>
             <fieldset>
-                <legend align="center">Preferências</legend>
+                <legend align="center" class="dados">Preferências</legend>
+
+                <p>
+                    <label for="produtoPreferencia">Quais produtos você deseja que sejam recomendados?</label>
+                </p>
+
+                <p>
+                    <label for="pagamento">Forma de pagamento que você mais usa:</label>
+                </p>
+
+                <p>
+                    <label for="faixaPreco">Faixa de preço que você normalmente faz suas compras:</label>
+                </p>
+
+                <p>
+                    <label for="soubeSite">Como soube de nosso site?</label>
+                </p>
+
+                <p>
+                    <label for="notificacoes">Deseja receber notificações?</label>
+                </p>
+
+                <p>
+                    <label for="avaliacoes">Avalie nosso atendimento!</label>
+                </p>
+
+                <p>
+                    <label for="comentario">Deixe aqui suas dúvidas/sugestões</label>                    
+
+                </p>
+
+               
 
             </fieldset>
 
-
-
         </form>
+        <a href="#topo" id="retorno">Voltar ao topo da página</a>
     </main>
 </body>
 </html>
