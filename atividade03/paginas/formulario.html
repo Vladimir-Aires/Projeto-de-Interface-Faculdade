@@ -105,32 +105,53 @@
             <fieldset>
                 <legend align="center" class="dados">Preferências</legend>
 
-                <p>
-                    <label for="produtoPreferencia">Quais produtos você deseja que sejam recomendados?</label>
+                <p align="center">
+                    <label for="produtoPreferencia">Qual produto você deseja receber mais recomendações?</label> <br>
+                    <select name="produtos" id="produtos">
+                        <option value="roupas">Roupas</option>
+                        <option value="eletronicos">Produtos eletrônicos</option>
+                        <option value="ferramentas">Ferramentas</option>
+                        <option value="suplementos">Suplementos</option>
+                    </select>
                 </p>
 
-                <p>
-                    <label for="pagamento">Forma de pagamento que você mais usa:</label>
+                <p align="center">
+                    <label for="pagamento">Forma de pagamento que você mais usa:</label> <br>
+                    <input type="radio" name="pagamento" value="1">Dinheiro
+                    <input type="radio" name="pagamento" value="1">Cartão
+                    <input type="radio" name="pagamento" value="1">PIX
                 </p>
 
-                <p>
+                <p align="center">
                     <label for="faixaPreco">Faixa de preço que você normalmente faz suas compras:</label>
                 </p>
 
-                <p>
-                    <label for="soubeSite">Como soube de nosso site?</label>
+                <p align="center">
+                    <label for="soubeSite">Como soube de nosso site?</label> <br>
+                    <input type="radio" name="caminho" value="1">Internet
+                    <input type="radio" name="caminho" value="2">Amigos
+                    <input type="radio" name="caminho" value="3">Descobri ao acaso
                 </p>
 
-                <p>
-                    <label for="notificacoes">Deseja receber notificações?</label>
+                <p align="center">
+                    <label for="notificacoes">Deseja receber notificações?</label> <br> 
+                    <input type="radio" name="escolha" value="1">Sim!
+                    <input type="radio" name="escolha" value="2">Não.
                 </p>
 
-                <p>
-                    <label for="avaliacoes">Avalie nosso atendimento!</label>
+                <p align="center">
+                    <label for="avaliacoes">Avalie nosso atendimento!</label> <br> 
+                    <input type="radio" name="avalie" value="1">Péssimo
+                    <input type="radio" name="avalie" value="2">Ruim
+                    <input type="radio" name="avalie" value="3">Regular
+                    <input type="radio" name="avalie" value="4">Indiferente
+                    <input type="radio" name="avalie" value="5">Bom
+                    <input type="radio" name="avalie" value="6">Ótimo
                 </p>
 
-                <p>
-                    <label for="comentario">Deixe aqui suas dúvidas/sugestões</label>                    
+                <p align="center">
+                    <label for="comentario">Deixe aqui suas dúvidas/sugestões</label> <br>
+                    <textarea name="comentarios" id="comentario" cols="40" rows="10"></textarea>                  
 
                 </p>
 
