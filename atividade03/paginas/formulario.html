@@ -11,17 +11,17 @@
             margin: auto;
             
         }
-
+        
         fieldset{
             margin-top: 10px;
-        
+            
             background-color: #7d8589;
             color: white;
             border: 3px solid black;
             border-radius: 10px;
             text-shadow: 1px 1px 1px black;
         }
-
+        
         .dados{
             font-family: Arial, Helvetica, sans-serif;
             font-weight: bold;
@@ -38,7 +38,7 @@
 <body>
     <header>
         <h1 align="center" id="topo">Cadastro</h1>
-
+        
         <nav>
             <a href="../index.html" target="_self" rel="prev">Início</a>
             <a href="./pagina02.html" target="_self" rel="next">Curiosidades</a>
@@ -46,10 +46,11 @@
             <a href="./pagina04.html" target="_self" rel="next">Mídias</a>
         </nav>
     </header>
-
+    
     <main>
         <h2 align="center">Atente-se a todas as novidades que aparecerem aqui. Cadastre-se!</h2>
         <form action=".sql" method="post">
+            <!------------ CAMPO DE DADOS PESSOAIS ---------->
             <fieldset >
                 <legend align="center" class="dados">Dados Pessoais</legend>
                 <p align="center">
@@ -100,11 +101,17 @@
                     <label for="telefone">Telefone de contato</label> <br>
                     <input type="number" id="telefone" placeholder="(00) 0000-0000">
                 </p>
-
+                
+                <p align="center">
+                    <input type="reset" name="resetar">
+                    <input type="submit" name="enviar">
+                </p>
             </fieldset>
+
+            <!-- --------------- CAMPO DE PREFERÊNCIAS DO USUÁRIO -------- -->
             <fieldset>
                 <legend align="center" class="dados">Preferências</legend>
-
+                
                 <p align="center">
                     <label for="produtoPreferencia">Qual produto você deseja receber mais recomendações?</label> <br>
                     <select name="produtos" id="produtos">
@@ -114,14 +121,14 @@
                         <option value="suplementos">Suplementos</option>
                     </select>
                 </p>
-
+                
                 <p align="center">
                     <label for="pagamento">Forma de pagamento que você mais usa:</label> <br>
                     <input type="radio" name="pagamento" value="1">Dinheiro
                     <input type="radio" name="pagamento" value="1">Cartão
                     <input type="radio" name="pagamento" value="1">PIX
                 </p>
-
+                
                 <p align="center">
                     <label for="faixaPreco">Faixa de preço que você normalmente faz suas compras:</label> <br>
                     <select name="preco" id="preco">
@@ -132,20 +139,19 @@
                         <option value="ate5000">de R$2000 até R$5000</option>
                     </select>
                 </p>
-
+                
                 <p align="center">
                     <label for="soubeSite">Como soube de nosso site?</label> <br>
                     <input type="radio" name="caminho" value="1">Internet
                     <input type="radio" name="caminho" value="2">Amigos
                     <input type="radio" name="caminho" value="3">Descobri ao acaso
                 </p>
-
+                
                 <p align="center">
-                    <label for="notificacoes">Deseja receber notificações?</label> <br> 
-                    <input type="radio" name="escolha" value="1">Sim!
-                    <input type="radio" name="escolha" value="2">Não.
+                    <label for="notificacoes">Desejo receber notificações</label> 
+                     <input type="checkbox" name="notificar" id="notificar">
                 </p>
-
+                
                 <p align="center">
                     <label for="avaliacoes">Avalie nosso atendimento!</label> <br> 
                     <input type="radio" name="avalie" value="1">Péssimo
@@ -155,17 +161,21 @@
                     <input type="radio" name="avalie" value="5">Bom
                     <input type="radio" name="avalie" value="6">Ótimo
                 </p>
-
+                
                 <p align="center">
                     <label for="comentario">Deixe aqui suas dúvidas/sugestões</label> <br>
                     <textarea name="comentarios" id="comentario" cols="40" rows="10"></textarea>                  
+                </p>
+                <p align="center" class="termos">
+                    <input type="checkbox" name="acordo" id="acordo"> Aceito e concordo com todos os termos deste site.
 
                 </p>
-
-               
-
+                <p align="center">
+                    <input type="reset" name="resetar">
+                    <input type="submit" name="enviar">
+                </p>
             </fieldset>
-
+            
         </form>
         <a href="#topo" id="retorno">Voltar ao topo da página</a>
     </main>
