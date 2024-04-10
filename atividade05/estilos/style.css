@@ -1,0 +1,145 @@
+@charset "UTF-8";
+
+/* ----------------------- Globais ------------------------------------- */
+@import url('https://fonts.googleapis.com/css2?family=Advent+Pro:ital,wght@0,100..900;1,100..900&display=swap');
+:root{
+    --fontetitulo: "Advent Pro", sans-serif;
+    --fonteconteudo: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+    --cor1:#CF3723;
+    --cor2:#A54437;
+    --cor3:#FA1D00; 
+    --cor4:#7A443D; 
+    --cor5:#503835; 
+    --cor6:#332B2B; 
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+/* -------------------------------- Corpo(s) ------------------------------------------ */
+
+#inicio{
+    background-color: #e8caa4;
+}
+
+#tabela{
+    background-color: #d8d382;
+}
+
+#curiosidades{
+    background-color: #a5f7f3;
+}
+
+#midia{
+    background-color: #90a9dd;
+}
+
+#formulario{
+    background-color: rgb(255, 231, 122);
+}
+
+body{
+    background-color: var(--cor6);
+}
+header{
+    background-image: linear-gradient(to top, var(--cor1)20%, var(--cor5));
+    min-height: 140px;
+    
+}
+header h1{
+    padding-top: 40px;
+    font-size: 2.6em;
+    font-weight: 700;
+    margin-bottom:39px;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+    
+}
+header nav{
+    background-color: var(--cor1);
+    
+    padding-top: 7px;
+    padding-bottom: 8px;
+    
+}
+header nav>a{
+    text-decoration: none;
+    color: aliceblue;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px black;
+    padding-left:10px;
+    padding-right:10px;
+}
+main{
+    max-width: 1000px;
+    min-width: 400px;
+    background-color: aliceblue;
+    margin: auto;
+    margin-bottom: 30px;
+    padding:20px;
+}
+
+h1, h2{
+    font-family: var(--fontetitulo);
+    text-transform: uppercase;
+}
+
+main p{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-indent: 20px;
+}
+main h2{
+    margin-top: 10px;
+    margin-bottom:10px;
+}
+
+p, li, a{
+    font-family: var(--fonteconteudo);
+}
+
+hr{
+    border-color: rgb(39, 22, 70);
+}
+#retorno{
+    display: block;
+    text-align: right;
+    margin: auto;
+    margin-top:50px;
+    text-decoration: none;
+    color: var(--cor6);
+}
+
+#retorno:hover{
+    color: var(--cor3);
+}
+
+nav > a:hover{
+    text-decoration:underline;
+}
+
+ol, ul{
+    list-style-position: inside;
+}
+
+
+
+footer .referencias{
+    background-color: #a09e9d;
+    padding: 20px;
+    
+}
+
+
+.icones img{
+    margin: 10px 7px 10px 7px;
+}
+
+
