@@ -23,9 +23,27 @@ html{
     scroll-behavior: smooth;
 }
 
-/* -------------------------------- Corpo ------------------------------------------ */
+/* -------------------------------- Corpo(s) ------------------------------------------ */
 
+#inicio{
+    background-color: #e8caa4;
+}
 
+#tabela{
+    background-color: #d8d382;
+}
+
+#curiosidades{
+    background-color: #a5f7f3;
+}
+
+#midia{
+    background-color: #90a9dd;
+}
+
+#formulario{
+    background-color: rgb(255, 231, 122);
+}
 
 body{
     background-color: var(--cor6);
@@ -87,6 +105,9 @@ p, li, a{
     font-family: var(--fonteconteudo);
 }
 
+hr{
+    border-color: rgb(39, 22, 70);
+}
 #retorno{
     display: block;
     text-align: right;
