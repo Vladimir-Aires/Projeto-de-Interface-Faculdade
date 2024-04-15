@@ -25,7 +25,7 @@ html{
 
 /* -------------------------------- Corpo ------------------------------------------ */
 
-
+/*------------------------------------ INDEX -------------------------------------*/
 
 body{
     background-color: var(--cor6);
@@ -108,6 +108,110 @@ ol, ul{
     list-style-position: inside;
 }
 
+/*------------------------------- FORMULÁRIO ----------------------------------------*/
+form{
+    max-width: 570px;
+    margin: auto;
+    
+}
+
+fieldset{
+    margin-top: 10px;
+    
+    background-color: #7d8589;
+    color: white;
+    border: 3px solid black;
+    border-radius: 10px;
+    text-shadow: 1px 1px 1px black;
+}
+
+.dados{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 1.2em;
+    color: #feffff;
+    background-color: #000000;
+    padding: 7px;
+    border-radius: 10px;
+}
+/*---------------------------------- PÁGINA 2 --------------------------------------*/
+.Tconteudo{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.referencia1{
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+.referencia1:hover{
+    color: #2575e4;
+}
+img{
+    display: block;
+    margin: auto;
+    border-radius: 50px;
+    border: 2px solid black;
+}
+/*------------------------------------ PÁGINA 3 --------------------------------------*/
+table{
+    margin: auto;
+    border-collapse: collapse;
+    margin-top:20px;
+    margin-bottom:20px;
+    font-family: Arial, Helvetica, sans-serif;
+ }
+ 
+ .H{ 
+     background-color: blue;
+     color: white;
+ }
+ .M{
+     background-color: crimson;
+     color: white;
+ }
+ table, thead, tbody, th, td{
+     border: 1px solid black;
+ }
+ td{
+     padding: 5px;
+     font-size:0.8em;
+ }
+ .info{
+     text-align: center;
+     background-color: #8080809a;
+     font-weight: bold;
+     text-transform: uppercase;
+ }
+ .B{
+     background-color: rgb(8, 134, 25);
+     color:aliceblue;
+ }
+ .G{
+     background-color: darkcyan;
+     color:aliceblue;
+ }
+ .rank{
+     text-align: center;
+     font-weight: bold;
+     font-size: 1.5em;
+     width: 140px;
+     background-color: blueviolet;
+     color: antiquewhite;
+ }
+/*--------------------------------- PÁGINA 4 -----------------------------------------*/
+.video{
+    text-align: center;
+}
+.audio{
+    text-align: center;
+    
+}
+audio{
+    border: 2px solid rgb(218, 33, 33);
+    border-radius: 20px;
+    
+}
 
 
 
