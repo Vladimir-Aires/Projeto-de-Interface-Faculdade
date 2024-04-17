@@ -1,14 +1,25 @@
 @charset "UTF-8";
 
-/* ----------------------- Globais ------------------------------------- */
+/* --------------------------------- IMPORTAÇÕES ----------------------------------- */
 @import url('https://fonts.googleapis.com/css2?family=Advent+Pro:ital,wght@0,100..900;1,100..900&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=Agdasima:wght@400;700&display=swap');
 
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* ---------------------------- GLOBAIS ----------------------------------------- */
 :root{
     --fontetitulo: "Advent Pro", sans-serif;
     --fonteconteudo: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     --fonteExtra: "Agdasima", sans-serif;
+    --fonteQuicksand: "Quicksand", sans-serif;
+    --fontMontserrat: "Montserrat", sans-serif;
+    --fontRoboto: "Roboto", sans-serif;
 
     --cor1:#CF3723;
     --cor2:#A54437;
@@ -81,6 +92,26 @@ header nav>a{
     padding-left:10px;
     padding-right:10px;
 }
+
+.imagem-entrada > img{
+    width: 1040px;
+    margin: auto; 
+    margin-left: -20px;
+    margin-top: -20px;   
+}
+.imagem-index > img{
+    width: 1040px;
+    margin: auto; 
+    margin-left: -20px;
+}
+.grupo{
+    text-align: center;
+    background-color: #282424;
+    padding: 10px;
+    margin-right: -20px;
+    margin-left: -20px;
+    margin-bottom: 5px;
+}
 main{
     max-width: 1000px;
     min-width: 400px;
@@ -108,6 +139,10 @@ main h2{
 p, li, a{
     font-family: var(--fonteconteudo);
 }
+.paragrafo-index{
+    font-family: var(--fontMontserrat);
+    font-weight: 500;
+}
 
 hr{
     border-color: rgb(39, 22, 70);
@@ -131,6 +166,10 @@ nav > a:hover{
 
 ol, ul{
     list-style-position: inside;
+}
+ol > li, ul > li{
+    font-family: var(--fonteQuicksand);
+    font-size: 0.8em;
 }
 
 /* ------------------------ RODAPÉ ------------------------------------------- */
@@ -217,7 +256,18 @@ footer{
     border-radius: 50px;
     border: 2px solid black;
 }
+.paragrafo-curiosi{
+    font-family: var(--fontRoboto);
+    font-size: 17px;
+}
 /* --------------------------- FORMULÁRIO -------------------------------------- */
+.imagem-formulario{
+    text-align: center;
+    background-color: white;
+    margin-left: -20px;
+    margin-right: -20px;
+    margin-top: 20px;
+}
 form{
     max-width: 570px;
     margin: auto;
@@ -245,7 +295,17 @@ fieldset{
 }
 
 /* ----------------------------- MÍDIAS ----------------------------------------- */
-
+.ilustrativo-multimidia{
+   text-align: center;
+   background-color: white;
+   margin-left: -20px;
+    margin-right: -20px;
+}
+.imagem-midia{
+    margin-left: -20px;
+    margin-right: -20px;
+    margin-top: 10px;
+}
 .video{
     text-align: center;
 }
@@ -259,7 +319,27 @@ audio{
     
 }
 /* ------------------------------- TABELA ------------------------------------------ */
-
+.pesquisa-video{
+    text-align: center;
+    background-color: #272424;
+    padding: 10px;
+    margin-right: -20px;
+    margin-left: -20px;
+}
+.imagem-tabela{
+    text-align: center;
+    background-color: white;
+    margin-right: -20px;
+    margin-left: -20px;
+    margin-top: -20px;
+    margin-bottom: 10px;
+}
+.imagem-global{
+    text-align: center;
+    margin-right:-20px;
+    margin-left:-20px;
+    margin-top: 10px;
+}
 table{
     margin: auto;
     border-collapse: collapse;
