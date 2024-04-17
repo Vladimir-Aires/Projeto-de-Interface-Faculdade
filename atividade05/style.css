@@ -137,15 +137,11 @@ ol, ul{
 
 footer{
     background-color: #a09e9d;
-    height: 300px;
+    height: 220px;
     padding: 20px;
-    
-    
 }
 
-footer div{
-   
-}
+
 .referencias{
     float: left;
     max-width: 430px;
@@ -158,26 +154,50 @@ footer div{
 }
 .icones{
     text-align: right;
-    margin-top: 30px;
+    position: relative;
+    left: 270px;
+    margin-left: 140px;
     max-width: 430px;
-    display: inline;
+    display: inline-block;
 }
 
 .corporativo{
    max-width: 430px;
-   display: inline;
-  
+   display: inline-block;
+  margin-left: 120px;
+  position: relative;
+  left: 90px;
 
-   
-   
 }
 .corporativo ul{
     list-style-type: none;
+    
+}
+.corporativo li{
+    padding-top: 30px;
 }
 
 .icones img{
     margin: 10px 7px 10px 7px;
 }
+.extras, .externo, .info-extra{
+    font-family: var(--fonteExtra);
+    font-size: 20px;
+    font-weight: 700;
+    text-decoration: none;
+}
+.extras, .externo{
+    color: #220d29;
+}
+.extras:hover{
+    color: white;
+    text-decoration: underline;
+}
+.externo:hover{
+    color: white;
+    text-decoration: underline;
+}
+
 /* ----------------------------- CURIOSIDADES ------------------------------- */
 .Tconteudo{
     margin-top: 10px;
