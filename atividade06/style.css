@@ -1,0 +1,308 @@
+@charset "UTF-8";
+
+/* ----------------------- Globais ------------------------------------- */
+@import url('https://fonts.googleapis.com/css2?family=Advent+Pro:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Agdasima:wght@400;700&display=swap');
+
+:root{
+    --fontetitulo: "Advent Pro", sans-serif;
+    --fonteconteudo: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    --fonteExtra: "Agdasima", sans-serif;
+
+    --cor1:#CF3723;
+    --cor2:#A54437;
+    --cor3:#FA1D00; 
+    --cor4:#7A443D; 
+    --cor5:#503835; 
+    --cor6:#332B2B; 
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+/* -------------------------------- Corpo(s) ------------------------------------------ */
+
+#inicio{
+    background-color: #e8caa4;
+}
+
+#tabela{
+    background-color: #d8d382;
+}
+
+#curiosidades{
+    background-color: #a5f7f3;
+}
+
+#midia{
+    background-color: #90a9dd;
+}
+
+#formulario{
+    background-color: rgb(255, 231, 122);
+}
+
+body{
+    background-color: var(--cor6);
+}
+header{
+    background-image: linear-gradient(to top, var(--cor1)20%, var(--cor5));
+    min-height: 140px;
+    
+}
+header h1{
+    padding-top: 40px;
+    font-size: 2.6em;
+    font-weight: 700;
+    margin-bottom:39px;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+    
+}
+header nav{
+    background-color: var(--cor1);
+    
+    padding-top: 7px;
+    padding-bottom: 8px;
+    
+}
+header nav>a{
+    text-decoration: none;
+    color: aliceblue;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px black;
+    padding-left:10px;
+    padding-right:10px;
+}
+main{
+    max-width: 1000px;
+    min-width: 400px;
+    background-color: aliceblue;
+    margin: auto;
+    margin-bottom: 30px;
+    padding:20px;
+}
+
+h1, h2{
+    font-family: var(--fontetitulo);
+    text-transform: uppercase;
+}
+
+main p{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-indent: 20px;
+}
+main h2{
+    margin-top: 10px;
+    margin-bottom:10px;
+}
+
+p, li, a{
+    font-family: var(--fonteconteudo);
+}
+
+hr{
+    border-color: rgb(39, 22, 70);
+}
+#retorno{
+    display: block;
+    text-align: right;
+    margin: auto;
+    margin-top:50px;
+    text-decoration: none;
+    color: var(--cor6);
+}
+
+#retorno:hover{
+    color: var(--cor3);
+}
+
+nav > a:hover{
+    text-decoration:underline;
+}
+
+ol, ul{
+    list-style-position: inside;
+}
+
+/* ------------------------ RODAPÉ ------------------------------------------- */
+
+footer{
+    background-color: #a09e9d;
+    height: 220px;
+    padding: 20px;
+}
+
+
+.referencias{
+    float: left;
+    max-width: 430px;
+    text-align: justify;
+    
+}
+.referencias h3{
+    font-family: var(--fonteExtra);
+    font-size: 2em;
+}
+.icones{
+    text-align: right;
+    position: relative;
+    left: 270px;
+    
+    max-width: 430px;
+    display: inline-block;
+}
+
+.corporativo{
+   max-width: 430px;
+   display: inline-block;
+  margin-left: 120px;
+  position: relative;
+  left: 10px;
+
+}
+.corporativo ul{
+    list-style-type: none;
+    
+}
+.corporativo li{
+    padding-top: 30px;
+}
+
+.icones img{
+    margin: 10px 7px 10px 7px;
+}
+.extras, .externo, .info-extra{
+    font-family: var(--fonteExtra);
+    font-size: 20px;
+    font-weight: 700;
+    text-decoration: none;
+}
+.extras, .externo{
+    color: #220d29;
+}
+.extras:hover{
+    color: white;
+    text-decoration: underline;
+}
+.externo:hover{
+    color: white;
+    text-decoration: underline;
+}
+
+/* ----------------------------- CURIOSIDADES ------------------------------- */
+.Tconteudo{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.referencia1{
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+.referencia1:hover{
+    color: #2575e4;
+}
+.ilustrativo{
+    display: block;
+    margin: auto;
+    border-radius: 50px;
+    border: 2px solid black;
+}
+/* --------------------------- FORMULÁRIO -------------------------------------- */
+form{
+    max-width: 570px;
+    margin: auto;
+    
+}
+
+fieldset{
+    margin-top: 10px;
+    
+    background-color: #7d8589;
+    color: white;
+    border: 3px solid black;
+    border-radius: 10px;
+    text-shadow: 1px 1px 1px black;
+}
+
+.dados{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 1.2em;
+    color: #feffff;
+    background-color: #000000;
+    padding: 7px;
+    border-radius: 10px;
+}
+
+/* ----------------------------- MÍDIAS ----------------------------------------- */
+
+.video{
+    text-align: center;
+}
+.audio{
+    text-align: center;
+    
+}
+audio{
+    border: 2px solid #290303;
+    border-radius: 28px;
+    
+}
+/* ------------------------------- TABELA ------------------------------------------ */
+
+table{
+    margin: auto;
+    border-collapse: collapse;
+    margin-top:20px;
+    margin-bottom:20px;
+    font-family: Arial, Helvetica, sans-serif;
+ }
+ 
+ .H{ 
+     background-color: blue;
+     color: white;
+ }
+ .M{
+     background-color: crimson;
+     color: white;
+ }
+ table, thead, tbody, th, td{
+     border: 1px solid black;
+ }
+ td{
+     padding: 5px;
+     font-size:0.8em;
+     background-color: #f0f8ff;
+ }
+ .info{
+     text-align: center;
+     background-color: #8080809a;
+     font-weight: bold;
+     text-transform: uppercase;
+ }
+ .B{
+     background-color: rgb(8, 134, 25);
+     color:aliceblue;
+ }
+ .G{
+     background-color: darkcyan;
+     color:aliceblue;
+ }
+ .rank{
+     text-align: center;
+     font-weight: bold;
+     font-size: 1.5em;
+     width: 140px;
+     background-color: blueviolet;
+     color: antiquewhite;
+ }
