@@ -156,7 +156,7 @@ footer{
     text-align: right;
     position: relative;
     left: 270px;
-    margin-left: 140px;
+    
     max-width: 430px;
     display: inline-block;
 }
@@ -166,7 +166,7 @@ footer{
    display: inline-block;
   margin-left: 120px;
   position: relative;
-  left: 90px;
+  left: 10px;
 
 }
 .corporativo ul{
